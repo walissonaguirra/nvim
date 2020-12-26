@@ -14,8 +14,8 @@ sudo apt install neovim
 ### Instalando gerenciador de plugins
 Linux [Vim-plug](https://github.com/junegunn/vim-plug#neovim)
 ```sh 
-curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
 
 ### Editando o arquivo de configuração
