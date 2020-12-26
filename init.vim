@@ -1,6 +1,8 @@
 call plug#begin()
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'preservim/nerdtree'
+Plug 'jiangmiao/auto-pairs'
+Plug 'pangloss/vim-javascript'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "Plug 'ryanoasis/vim-devicons'
 call plug#end()

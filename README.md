@@ -2,6 +2,8 @@
 ![Print Screen Neovim](https://raw.githubusercontent.com/walissonaguirra/nvim/master/Screenshot_20201226_073112.png)
 
 ### Plugins ativos
+* [Vim Javascript](https://github.com/pangloss/vim-javascript#readme) Pacote JavaScript para vim, destaque de sintaxe e recuo aprimorado
+* [Auto Pairs](https://github.com/jiangmiao/auto-pairs#readme) Insira ou exclua colchetes, parênteses, aspas em par.
 * [Dracula theme](https://draculatheme.com/vim) Tema escuro para Vim
 * [Nerdtree](https://github.com/preservim/nerdtree#the-nerdtree-) explorador de arquivos para o editor Vim
 
